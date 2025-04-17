@@ -1,0 +1,25 @@
+{
+  "name": "wagrip",
+  "version": "1.0.0",
+  "description": "WhatsApp Group Number Exporter.",
+  "homepage": "https://github.com/Ninja-Yubaraj/WAGrip#readme",
+  "bugs": {
+    "url": "https://github.com/Ninja-Yubaraj/WAGrip/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ninja-Yubaraj/WAGrip.git"
+  },
+  "license": "ISC",
+  "author": "Yubaraj Sarkar",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "grip": "node --max-old-space-size=4096 index.js"
+  },
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.27.0"
+  }
+}
